@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import axios from 'axios';
 
-export default class AddPeople extends Component {
+export default class Tap extends Component {
   constructor(props){
     super(props)
     this.state = {
@@ -9,7 +9,7 @@ export default class AddPeople extends Component {
     }
   }
 
-  //axios get
+  //axios get 'tapping api'
 componentDidMount(){
  axios.get("http://174.138.36.217/people/")
   .then(res => {
@@ -20,7 +20,10 @@ componentDidMount(){
 
   //axios post
 
+  //axios.post()
+
   render () {
+    let people = this.state.people
     return (
       <div>Hey babilonia endonde y  how are you te encuentras
       </div>

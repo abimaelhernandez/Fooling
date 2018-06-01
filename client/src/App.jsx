@@ -1,5 +1,6 @@
 import React,{ Component } from 'react';
-import AddPeople from './components/addPeople.jsx';
+import Tap from './components/addPeople.jsx';
+import AddUser from './components/addUser.jsx';
 
 export default class App extends Component {
   constructor(props){
@@ -28,7 +29,8 @@ addByOne(){
         asdasdasdasdasdasda<br/>
         asddfadsas<br/>
         asdasdasd</p>
-        <AddPeople/>
+      <Tap/><br/>
+      <AddUser/>
       </div>
     )
   }
